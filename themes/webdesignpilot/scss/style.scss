@@ -1,5 +1,6 @@
 @import 'colors-fonts';
 @import 'navbar';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
 
 /** General Tags */
 * {
@@ -88,9 +89,9 @@ input[type=submit]:hover {
 
 body {
 	background-color: #FFFFFF;
-	font-family: 'Raleway';
+	font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     min-width: 320px;
     p {
@@ -125,7 +126,7 @@ header {
 			width: 250px;
 		    margin: 0 25px 0 auto;
 		    padding: 8px 47px;
-		    background-color: #420;
+		    background-color: $wpdark;
 			img {
 				vertical-align: middle;
 				top: -2px;
@@ -139,7 +140,7 @@ header {
 			}
 		}
 		p:hover {
-				background-color: $wpdark;
+				background-color: $wporange;
 				transition: 2s;
 			}
 		.wdp-webname {
@@ -240,7 +241,7 @@ header {
 		}
 		.front-author {
 			text-align: center;
-			font-weight: 300;
+			font-weight: 400;
 			font-size: 20px;
 			margin-left: 40%;
 			color: $wplight;
